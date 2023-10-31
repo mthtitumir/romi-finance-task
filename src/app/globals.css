@@ -2,11 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 *{
-    background-color: #000;
+    background-color: 	#181818;
     color: white;
 }
 .primary-border{
     @apply border border-opacity-30 border-gray-300 rounded-sm;
+}
+.color2{
+    @apply text-gray-500;
 }
 .gray-hover{
     @apply hover:bg-gray-500 hover:bg-opacity-20;

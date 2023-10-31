@@ -9,8 +9,8 @@ const Navbar = () => {
   const navItems = ["Home", "Dashboard", "NFT", "Earn", "Buy", "Referrals", "Ecosystem", "About"];
 
   return (
-    <div className="mx-8">
-      <div className="flex flex-nowrap items-center justify-between my-3">
+    <div className="shadow-md border-b border-b-gray-600 ">
+      <div className="flex flex-nowrap items-center justify-between mx-8 my-2">
         {/* logo & name  */}
         <LogoName />
         {/* nav tabs  */}
